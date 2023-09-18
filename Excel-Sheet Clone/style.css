@@ -1,0 +1,80 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+.table-top-cont{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.table-top-cont>h1{
+    width: fit-content;
+}
+
+/* .table-top-cont>input{
+   
+} */
+
+.table-top-cont>button{
+    cursor: pointer;
+    padding: 5px;
+    background: none;
+    border: none;
+    border-radius: 10px;
+}
+
+#bold-btn{
+    font-weight: 700;
+}
+
+#italics-btn{
+    font-style: italic;
+}
+
+#underline-btn{
+    text-decoration: underline;
+}
+
+#bgColor, #fontColor{
+    width: 30px;
+}
+
+#bold-btn:hover, #italics-btn:hover, #underline-btn:hover, #left-btn:hover, #center-btn:hover, #right-btn:hover{
+    background-color: rgb(200, 194, 194);
+}
+
+#fonte-style-dropdown{
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 8px;
+    width: 15%;
+}
+
+#fonte-size-dropdown{
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 8px;
+    width: 50px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    min-width: 80px;
+    /* width is increasing with extra content */
+    border: 1px solid #333;
+}
+
+td{
+    outline: none;
+}
+
+#current-cell{
+    display: inline-block;
+}

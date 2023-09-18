@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tools-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+.tools-cont > * {
+    width: 4rem;
+    display: block;
+    cursor: pointer;
+}
+.pencil-color-cont {
+    display: flex;
+    gap: 1.5rem;
+}
+.pencil-color-cont > div {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+.pencil-cont {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pencil-tools-cont{
+    display: none;
+    /* it should be block through JS */
+    position: absolute;
+    top: 90px;
+    right: 5px;
+}
+
+.eraser-cont{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eraser-tools-cont{
+    display: none;
+    /* it should be block through JS */
+    position: absolute;
+    top: 90px;
+    width: 2rem;
+}
+
+.sticky-cont{
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+}
+
+.header-cont{
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f1f2f6;
+}
+.header-cont > * {
+    height: 1.3rem;
+    width: 1.3rem;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.minimize{
+    background-color: green;
+}
+.remove{
+    background-color: red;
+}
+.notes-cont{
+    height: 13rem;
+}
+textarea{
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+}

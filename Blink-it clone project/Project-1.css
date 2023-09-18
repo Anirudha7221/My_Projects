@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.my-nav{
+    margin-top: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+.location>h6{
+    margin: 0px;
+    font-weight: 800;
+}
+.location>p{
+    margin: 0px;
+}
+.search-bar{
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    width: 45vw;
+    padding: 10px;
+}
+.search-bar>input{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+}
+#cart{
+    background-color: #0C831F;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.hero-2{
+    width: 83vw;
+    overflow-x: auto;
+    margin-inline: auto;
+}
+.list{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+}
+.list>div{
+    display: inline-block;
+    margin: 10px;
+}
+.catergory{
+    width: 83vw;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+.catergory-card{
+    margin: 5px;
+}
+.content{
+    list-style: none;
+    padding: 30px;
+}
+.content>li>a{
+    text-decoration: none;
+    color:#666666;
+}
+.section{
+    width: 83vw;
+    margin-inline: auto;
+    padding: 10px;
+}
+.section-head>h4{
+    font-weight: 700;
+}
+.section-head>a{
+    color: #0C831F;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+.section-items{
+    overflow-x:auto;
+    width:100%;
+    display: flex;
+    white-space:nowrap;
+}
+.section-items>div{
+    margin: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    border:1px solid rgb(155, 150, 150);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item-name{
+    font-weight: 600;
+}
+.weight{
+    color: #666666;
+}
+.footer{
+    width: 83vw;
+    margin-inline: auto;
+}
+.f-1{
+    width: 83vw;
+    margin-inline: auto;
+}
+#f-2{
+    margin-inline: auto;
+    justify-content: center;
+    padding: 10px;
+}
+footer h5{
+    font-weight:600;
+    justify-content: center;
+}
+#seebtn{
+    color: #0C831F;
+    font-size: 15px;
+}
+.web-info{
+    margin-inline: auto;
+    width: 83vw;
+    height: 200px;
+    padding: 10px;
+}
+#info{
+    height: 50px;
+}
