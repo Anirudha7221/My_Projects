@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+i{
+    cursor: pointer;
+    font-size:140%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 98%;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#sidepanel-icon{
+    width: 5%;
+    height: 5%;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.panel-name{
+    font-size: 15px;
+    background: none;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#search-bar{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.482) ;
+}
+
+#search-bar>input{
+    padding: 8px;
+    width: 50vw;
+    border: none;
+    background: none;
+}
+
+#search-bar>input:focus{
+    outline: none;
+}
+
+#search-bar>i, #search>i{
+    padding: 10px;
+    border-radius:20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.396)
+}
+
+#search-bar>i:hover, #search>i:hover{
+    padding: 12px;
+}
+
+.account-logo{
+    border: none;
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(25, 145, 192);
+}
+
+.body{
+    display: flex;
+}
+
+#side-panel{
+    margin-top: 5%;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+}
+
+#home{
+    background-color: #303030;
+}
+
+#side-panel>div{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 80%;
+}
+
+#side-panel>div:hover{
+    background-color:#303030;
+}
+
+#containeer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+.thumbnil{
+    width: 400px;
+    height: 250px;
+}
+
+.thumbnil>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.video-info{
+    padding: 5px;
+    display: flex;
+    gap: 25px;
+}
+
+.video-item{
+    margin: 3%;
+    height: 300px;
+    padding: 10px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.user-name, .video-details>p{
+    color: #aaa;
+}
