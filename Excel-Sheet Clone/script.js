@@ -25,6 +25,19 @@ const uploadInput = document.getElementById('upload-input');
 const bgColorSelector=document.getElementById('bgColor');
 const fontColorSelector=document.getElementById('fontColor');
 
+let ZoomIN=document.getElementById("Zomm-IN");
+let ZoomOut=document.getElenentById("Zoom-out);
+
+ ZoomIN.addEventListener("click",()=>{
+     currentCell.style.padding="10px"
+     currentCell.fontSize="20px";
+})  
+
+ZoomOut.addEventListener("click",()=>{
+     currentCell.style.padding="0px"
+     currentCell.fontSize="10px";
+}) 
+
 // excel dropdowns
 const fontFamilyDropdown = document.getElementById('fonte-style-dropdown');
 const fontSizeDropdown = document.getElementById('fonte-size-dropdown');
