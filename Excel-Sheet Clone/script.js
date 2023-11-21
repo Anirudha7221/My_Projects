@@ -31,7 +31,6 @@ const fontSizeDropdown = document.getElementById('fonte-size-dropdown');
 
 // variables to save cache
 let prevCellId;
-let currentCell;
 let cutCell;
 let lastPressedBtn;
 let matrix = new Array(rows);
@@ -57,6 +56,11 @@ function colGen(typeOfCell, tableRow, isInnerText, rowNumber) {
             // key and value
             cell.addEventListener('focus', event => onFocusFunction(event.target));
         }
+
+        // if(cell.typeOf==selectType){
+        
+        // }
+        
         tableRow.append(cell);
     }
 }
